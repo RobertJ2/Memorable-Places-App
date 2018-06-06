@@ -14,6 +14,8 @@
 		291D08051FF42C550004E4F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 291D08031FF42C550004E4F7 /* LaunchScreen.storyboard */; };
 		291D08101FF42C550004E4F7 /* Memorable_Places_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291D080F1FF42C550004E4F7 /* Memorable_Places_AppTests.swift */; };
 		291D081B1FF42C550004E4F7 /* Memorable_Places_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291D081A1FF42C550004E4F7 /* Memorable_Places_AppUITests.swift */; };
+		291D08291FF42EC40004E4F7 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291D08281FF42EC40004E4F7 /* PlacesViewController.swift */; };
+		291D082C1FF4393F0004E4F7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 291D082B1FF4393F0004E4F7 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		291D08161FF42C550004E4F7 /* Memorable Places AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memorable Places AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		291D081A1FF42C550004E4F7 /* Memorable_Places_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memorable_Places_AppUITests.swift; sourceTree = "<group>"; };
 		291D081C1FF42C550004E4F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		291D08281FF42EC40004E4F7 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		291D082B1FF4393F0004E4F7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				291D082C1FF4393F0004E4F7 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				291D080E1FF42C550004E4F7 /* Memorable Places AppTests */,
 				291D08191FF42C550004E4F7 /* Memorable Places AppUITests */,
 				291D07F81FF42C540004E4F7 /* Products */,
+				291D082A1FF4393E0004E4F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +105,7 @@
 			children = (
 				291D07FA1FF42C550004E4F7 /* AppDelegate.swift */,
 				291D07FC1FF42C550004E4F7 /* ViewController.swift */,
+				291D08281FF42EC40004E4F7 /* PlacesViewController.swift */,
 				291D07FE1FF42C550004E4F7 /* Main.storyboard */,
 				291D08011FF42C550004E4F7 /* Assets.xcassets */,
 				291D08031FF42C550004E4F7 /* LaunchScreen.storyboard */,
@@ -123,6 +130,14 @@
 				291D081C1FF42C550004E4F7 /* Info.plist */,
 			);
 			path = "Memorable Places AppUITests";
+			sourceTree = "<group>";
+		};
+		291D082A1FF4393E0004E4F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				291D082B1FF4393F0004E4F7 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				291D08291FF42EC40004E4F7 /* PlacesViewController.swift in Sources */,
 				291D07FD1FF42C550004E4F7 /* ViewController.swift in Sources */,
 				291D07FB1FF42C550004E4F7 /* AppDelegate.swift in Sources */,
 			);
